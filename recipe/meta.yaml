@@ -1,5 +1,5 @@
 {% set name = "onedatafilerestclient" %}
-{% set version = "21.2.5.2" %}
+{% set version = "21.2.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/onedatafilerestclient-{{ version }}.tar.gz
-  sha256: 7059928a71058379acef5ffbcaca81c28c946f53abbd3d5b50d36dfdbef4c836
+  sha256: 235ae8130a8517314260025e5d43a82d95516db12208d618ead9193b5e5784c1
 
 build:
   noarch: python
